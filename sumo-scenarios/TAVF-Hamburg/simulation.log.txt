@@ -1,0 +1,25 @@
+Loading net-file from '/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/TAVF-Hamburg/network.net.xml.gz' ... done (65ms).
+Loading additional-files from '/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/TAVF-Hamburg/busStops.add.xml' ... done (8ms).
+Loading done.
+Simulation started with time: 0.00
+Simulation ended at time: 1200.00
+Reason: The final simulation step has been reached.
+Performance: 
+ Duration: 86.01s
+ Real time factor: 13.9512
+ UPS: 14402.155463
+Vehicles: 
+ Inserted: 7076 (Loaded: 7120)
+ Running: 1174
+ Waiting: 16
+Teleports: 1 (Collisions: 1)
+Statistics (avg):
+ RouteLength: 1643.75
+ Speed: 9.22
+ Duration: 186.34
+ WaitingTime: 49.62
+ TimeLoss: 65.48
+ DepartDelay: 1.10
+
+DijkstraRouter answered 7092 queries and explored 95.99 edges on average.
+DijkstraRouter spent 0.41s answering queries (0.06ms on average).

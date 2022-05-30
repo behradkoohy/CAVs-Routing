@@ -1,0 +1,23 @@
+Loading net-file from '/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/ingolstadt.net.xml' ... done (711ms).
+Loading additional-files from '/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/BusStations.add.xml' ... done (11ms).
+Loading additional-files from '/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/InTAS_E1.add.xml' ... done (10ms).
+Loading additional-files from '/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/buildings.poly.xml' ... done (428ms).
+Loading done.
+Simulation started with time: 0.00
+Simulation ended at time: 1058.40
+Performance: 
+ Duration: 57.44s
+ Real time factor: 18.4271
+ UPS: 65422.636976
+ UPS-Persons: 243.188189
+Vehicles: 
+ Inserted: 921 (Loaded: 1008)
+ Running: 504
+ Waiting: 0
+Teleports: 2 (Collisions: 2)
+Persons: 
+ Inserted: 5
+ Running: 2
+
+DijkstraRouter answered 1691 queries and explored 3437.99 edges on average.
+DijkstraRouter spent 2.21s answering queries (1.31ms on average).

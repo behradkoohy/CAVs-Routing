@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-05-30 21:06:41 by Eclipse SUMO sumo Version 1.13.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="sumo-scenarios/bologna/acosta/acosta_buslanes.net.xml"/>
+        <route-files value="sumo-scenarios/bologna/acosta/acosta.rou.xml,sumo-scenarios/bologna/acosta/acosta_busses.rou.xml"/>
+        <additional-files value="sumo-scenarios/bologna/acosta/acosta_vtypes.add.xml,sumo-scenarios/bologna/acosta/acosta_detectors.add.xml,sumo-scenarios/bologna/acosta/acosta_bus_stops.add.xml,sumo-scenarios/bologna/acosta/acosta_tls.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="logs/test-tr1/tripinfo_1.xml"/>
+        <tripinfo-output.write-unfinished value="true"/>
+    </output>
+
+    <processing>
+        <time-to-teleport value="-1"/>
+    </processing>
+
+    <report>
+        <no-warnings value="true"/>
+        <log value="sumo-scenarios/bologna/acosta/sumo_log.txt"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <emissions>
+        <device.emissions.probability value="1"/>
+    </emissions>
+
+    <traci_server>
+        <remote-port value="60964"/>
+    </traci_server>
+
+    <random_number>
+        <random value="true"/>
+    </random_number>
+
+    <gui_only>
+        <gui-settings-file value="sumo-scenarios/bologna/acosta/settings.gui.xml"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+</detector>

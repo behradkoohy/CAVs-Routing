@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-05-27 09:10:41 by Eclipse SUMO GUI Version 1.13.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/ingolstadt.net.xml"/>
+        <route-files value="/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/routes/ped.rou.xml,/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/routes/BusRoutes.flow.xml,/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/routes/InTAS_001.rou.xml,/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/routes/InTAS_002.rou.xml,/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/routes/InTAS_003.rou.xml,/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/routes/InTAS_004.rou.xml,/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/routes/InTAS_005.rou.xml,/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/routes/InTAS_006.rou.xml,/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/routes/InTAS_007.rou.xml,/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/routes/InTAS_008.rou.xml,/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/routes/InTAS_009.rou.xml,/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/routes/InTAS_010.rou.xml,/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/routes/InTAS_011.rou.xml,/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/routes/InTAS_012.rou.xml,/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/routes/InTAS_013.rou.xml,/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/routes/InTAS_014.rou.xml,/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/routes/InTAS_015.rou.xml,/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/routes/InTAS_016.rou.xml,/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/routes/InTAS_017.rou.xml,/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/routes/InTAS_018.rou.xml,/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/routes/InTAS_019.rou.xml,/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/routes/InTAS_020.rou.xml,/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/routes/InTAS_021.rou.xml,/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/routes/InTAS_022.rou.xml"/>
+        <additional-files value="/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/BusStations.add.xml,/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/InTAS_E1.add.xml,/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/buildings.poly.xml"/>
+    </input>
+
+    <output>
+        <summary-output value="/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/InTAS.simulation.summary.xml"/>
+        <tripinfo-output value="/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/InTAS.simulation.tripinfo.xml"/>
+        <statistic-output value="/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/InTAS.simulation.statistic.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="86400"/>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <threads value="1"/>
+        <route-steps value="200"/>
+        <ignore-junction-blocker value="15"/>
+        <time-to-teleport value="300"/>
+        <time-to-teleport.highways value="300"/>
+        <max-depart-delay value="300"/>
+        <default.carfollowmodel value="Krauss"/>
+        <parking.maneuver value="true"/>
+        <pedestrian.model value="striping"/>
+        <pedestrian.striping.stripe-width value="0.55"/>
+        <pedestrian.striping.jamtime value="30"/>
+    </processing>
+
+    <routing>
+        <routing-algorithm value="dijkstra"/>
+        <persontrip.transfer.car-walk value="allJunctions"/>
+        <device.rerouting.probability value="0.82"/>
+        <device.rerouting.explicit value="default_001,default_002,default_003,default_004,default_005,default_006,default_007,default_008,default_009,default_010,default_011,default_012,default_013,default_014,default_015,default_016,default_017,default_018,default_019,default_020,default_021,default_022,random_001,random_002,random_003,random_004,random_005,random_006,random_007,random_008,random_009,random_010,random_011,random_012,random_013,random_014,random_015,random_016,random_017,random_018,random_019,random_020,random_021,random_022"/>
+        <device.rerouting.period value="300"/>
+        <device.rerouting.threads value="1"/>
+        <device.rerouting.synchronize value="true"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="true"/>
+        <log value="/Users/behradkoohy/PycharmProjects/routePlanning/sumo-scenarios/InTAS/scenario/InTAS.simulation.log"/>
+    </report>
+
+    <gui_only>
+        <tracker-interval value="0.1"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <vehicles loaded="1008" inserted="921" running="504" waiting="0"/>
+    <teleports total="2" jam="0" yield="0" wrongLane="0"/>
+    <safety collisions="2" emergencyStops="0"/>
+    <persons loaded="5" running="2" jammed="0"/>
+    <vehicleTripStatistics routeLength="6127.13" speed="13.06" duration="523.80" waitingTime="88.37" timeLoss="150.61" departDelay="8.98" departDelayWaiting="-1.00" totalTravelTime="218425.70" totalDepartDelay="3746.40"/>
+    <pedestrianStatistics number="0" routeLength="0.00" duration="0.00" timeLoss="0.00"/>
+    <rideStatistics number="0"/>
+    <transportStatistics number="0"/>
+</statistics>

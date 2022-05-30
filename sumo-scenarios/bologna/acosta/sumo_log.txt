@@ -1,0 +1,10 @@
+***Starting server on port 60964 ***
+Loading net-file from 'sumo-scenarios/bologna/acosta/acosta_buslanes.net.xml' ... done (32ms).
+Loading additional-files from 'sumo-scenarios/bologna/acosta/acosta_vtypes.add.xml' ... done (1ms).
+Loading additional-files from 'sumo-scenarios/bologna/acosta/acosta_detectors.add.xml' ... done (1ms).
+Loading additional-files from 'sumo-scenarios/bologna/acosta/acosta_bus_stops.add.xml' ... done (0ms).
+Loading additional-files from 'sumo-scenarios/bologna/acosta/acosta_tls.add.xml' ... done (1ms).
+Loading done.
+Simulation version 1.13.0 started with time: 0.00
+Error: tcpip::Socket::recvAndCheck @ recv: peer shutdown
+Quitting (on error).

@@ -1,0 +1,5 @@
+[INPUT]
+sumocfg: custom-scenarios/grid2/grid2.sumocfg
+
+[OUTPUT]
+log_dir: logs/
